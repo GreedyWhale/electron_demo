@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "isolatedModules": true,
+    "strict": true, // 启用所有严格类型检查选项。
+    "noUnusedLocals": true, // 若有未使用的局部变量则抛错。
+    "noUnusedParameters": true, // 若有未使用的参数则抛错。
+    "baseUrl": ".", // 解析非相对模块名的基准目录
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "Node"
+  },
+  "include": ["src/**/*"]
+}
